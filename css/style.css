@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*------------------------------------*/
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
     color: white;
     padding: 40px;
 }
-
+/*------------------------------------*/
 .head_container {
     padding: 15px;
     width: 50vw;
@@ -38,4 +38,37 @@ body {
 #switcher_mode span {
     padding: 10px;
     font-weight: 500;
+}
+/*------------------------------------*/
+.search_container {
+    margin-top: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    background-color: rgb(40, 43, 95);
+    border-radius: 10px
+}
+
+.search_container img {
+    width: 20px;
+    height: 20px;
+}
+
+.search_input {
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    width: 40vw;
+}
+
+.search_BTN {
+    background-color: rgb(28, 72, 214);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 60px;
+
 }
