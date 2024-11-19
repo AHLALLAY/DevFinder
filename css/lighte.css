@@ -90,7 +90,7 @@ main {
 .user_image {
     width: 150px;
     height: 150px;
-    border-radius: 100%;
+    border-radius: 55% 45% 0% 100% / 68% 48% 52% 32%;
 }
 /*how is he || she*/
 .info {
