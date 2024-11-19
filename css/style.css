@@ -70,5 +70,34 @@ body {
     border: none;
     color: white;
     width: 60px;
+}
+/*------------------------------------*/
+main {
+    margin-top: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(40, 43, 95);
+    border-radius: 10px   
+}
 
+.user_picture {
+    width: 10vw;
+    background-color: beige ;
+    text-align: center;
+}
+
+.user_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    background-color: bisque;
 }
