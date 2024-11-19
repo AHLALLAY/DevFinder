@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*------------------------------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(30, 33, 65);
+    color: white;
+    padding: 40px;
+}
+/*------------------------------------*/
+.head_container {
+    padding: 15px;
+    width: 50vw;
+    height: auto;
+    
+}
+
+.head_container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#switcher_mode {
+    background-color: black;
+    border: none;
+    background: none;
+    color: white;
+    text-align: center
+}
+
+#switcher_mode span {
+    padding: 10px;
+    font-weight: 500;
+}
+/*------------------------------------*/
+.search_container {
+    margin-top: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    background-color: rgb(40, 43, 95);
+    border-radius: 10px
+}
+
+.search_container img {
+    width: 20px;
+    height: 20px;
+}
+
+.search_input {
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    width: 40vw;
+}
+
+.search_BTN {
+    background-color: rgb(28, 72, 214);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 60px;
+}
+/*------------------------------------*/
+main {
+    margin-top: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(40, 43, 95);
+    border-radius: 10px   
+}
+
+.user_picture {
+    width: 10vw;
+    text-align: center;
+}
+
+.user_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+/*how is he || she*/
+.info {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90vw;
+}
+
+.user_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_date a {
+    text-decoration: none;
+}
+/*Repo - Follow/ers/ing*/
+.RFF {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 15px;
+    padding: 10px;
+    width: 35vw;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(30, 33, 65);
+}
+/*link*/
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.links div {
+    margin-left: 10px;
+    padding: 10px;
+    width: 15vw;
+}
+
+.link {
+    align-items: center;
+    
+}
+
+.link img {
+    padding: 0px 10px;
+}

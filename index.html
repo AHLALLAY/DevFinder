@@ -5,32 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevFinder</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dark.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header>
+    <!-- title container -->
+    <div class="head_container">
+        <header>
+            <h2>devfinder</h2>
+            <button id="switcher_mode">
+                <span>light</span><img src="/assets/Icon/icon-sun.svg" alt="">
+            </button>
+        </header>
+    </div>
+
+    <!-- search -->
+    <div class="search_container">
         <div>
-            <h1>devfinder</h1>
-            <button></button>
+            <img src="/assets/Icon/icon-search.svg" alt="searchIcon">
+            <input type="text" name="search" id="search" class="search_input" placeholder="Search Github UserName ...">
         </div>
-        <div>
-            <input type="text" name="search" id="search" placeholder="Search Github username ...">
-            <button id="serachBTN">Search</button>
-        </div>
-    </header>
+        <button class="search_BTN">Search</button>
+    </div>
 
     <!-- main -->
     <main>
-        <div>
-            <div>
-                <img src="" alt="">
+        <div class="user_picture">
+            <img src="/assets/Image/1338355.jpg" alt="user image" class="user_image">
+        </div>
+        <div class="info">
+            <!-- how is he || she -->
+            <div class="user_date">
+                <div>
+                    <h2>Username</h2>
+                    <a href="#"><h4>@username</h4></a>
+                    <p>this profile has no bio</p>
+                </div>
+                <div>
+                    <h4>joined at  12/12/2012</h4>
+                </div>
             </div>
-            <div>
-                <h2>UserName</h2>
-                <h4>@username</h4>
-                <p>bio</p>
+            <!-- Repo - Follow/ers/ing -->
+            <div class="RFF">
+                <div>
+                    <h3>Repos</h3>
+                    <span id="repos">0</span>
+                </div>
+                <div>
+                    <h3>Followers</h3>
+                    <span id="followers">0</span>
+                </div>
+                <div>
+                    <h3>Following</h3>
+                    <span id="following">0</span>
+                </div>
+            </div>
+            <!-- links -->
+            <div class="links">
+                <div class="link">
+                    <img src="/assets/Icon/icon-location.svg" alt=""
+                    ><span>Not avalaible</span>
+                </div>
+                <div class="link">
+                    <img src="/assets/Icon/icon-website.svg" alt="">
+                    <span>Not avalaible</span>
+                </div>
+                <div class="link">
+                    <img src="/assets/Icon/icon-twitter.svg" alt="">
+                    <span>Not avalaible</span>
+                </div>
+                <div class="link">
+                    <img src="/assets/Icon/icon-company.svg" alt="">
+                    <span>Not avalaible</span>
+                </div>
             </div>
         </div>
     </main>
