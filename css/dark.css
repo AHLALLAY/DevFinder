@@ -142,3 +142,77 @@ main {
 .link img {
     padding: 0px 10px;
 }
+
+/*------------------------------------*/
+@media (max-width:768px) {
+    body {
+        padding: 20px;
+    }
+
+    /*------------------------------------*/
+    .head_container {
+        padding: 0% 5%;
+        width: 90vw;
+        height: 5vh;
+        border-radius: 10px;
+    }
+    /*------------------------------------*/
+    .search_container {
+        width: 90vw;
+        height: 8vh;
+    }
+
+    .search_container img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .search_input {
+        height: 30px;
+        width: 60vw;
+    }
+    /*------------------------------------*/
+    main {
+        display: block;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .user_picture {
+        text-align: center;
+        align-items: center;
+    }
+
+    .user_image {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*how is he || she*/
+
+    .user_date {
+        width: 40vw;
+        display: block;
+        text-align: center;
+    }
+
+    /*Repo - Follow/ers/ing*/
+    .RFF {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 5px;
+        width: 80vw;
+        height: 10vh;
+    }
+
+    /*link*/
+    .links {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .links div {
+        padding: 5px;
+        width: 80vw;
+    }
+}

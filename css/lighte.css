@@ -4,21 +4,23 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /*------------------------------------*/
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(236, 236, 236);
-    color:  rgb(30, 33, 65);
+    color: rgb(30, 33, 65);
     padding: 40px;
 }
+
 /*------------------------------------*/
 .head_container {
     padding: 15px;
     width: 50vw;
     height: auto;
-    
+
 }
 
 .head_container header {
@@ -26,6 +28,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
 #switcher_mode {
     border: none;
     background: none;
@@ -37,6 +40,7 @@ body {
     padding: 10px;
     font-weight: 500;
 }
+
 /*------------------------------------*/
 .search_container {
     margin-top: 5px;
@@ -44,8 +48,8 @@ body {
     display: flex;
     justify-content: space-between;
     width: 50vw;
-    background-color:white;
-    border-bottom: 2px solid rgb(0, 0, 0,0.1);
+    background-color: white;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
@@ -70,6 +74,7 @@ body {
     color: white;
     width: 60px;
 }
+
 /*------------------------------------*/
 main {
     margin-top: 5px;
@@ -78,7 +83,7 @@ main {
     justify-content: space-between;
     width: 50vw;
     height: 70vh;
-    background-color:white;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -92,6 +97,7 @@ main {
     height: 150px;
     border-radius: 55% 45% 0% 100% / 68% 48% 52% 32%;
 }
+
 /*how is he || she*/
 .info {
     margin-top: 30px;
@@ -107,6 +113,7 @@ main {
 .user_date a {
     text-decoration: none;
 }
+
 /*Repo - Follow/ers/ing*/
 .RFF {
     display: flex;
@@ -119,8 +126,9 @@ main {
     width: 35vw;
     height: 90px;
     border-radius: 10px;
-    background-color:rgb(236, 236, 236);
+    background-color: rgb(236, 236, 236);
 }
+
 /*link*/
 .links {
     display: flex;
@@ -136,9 +144,83 @@ main {
 
 .link {
     align-items: center;
-    
+
 }
 
 .link img {
     padding: 0px 10px;
+}
+
+/*------------------------------------*/
+@media (max-width:768px) {
+    body {
+        padding: 20px;
+    }
+
+    /*------------------------------------*/
+    .head_container {
+        padding: 0% 5%;
+        width: 90vw;
+        height: 5vh;
+        border-radius: 10px;
+    }
+    /*------------------------------------*/
+    .search_container {
+        width: 90vw;
+        height: 8vh;
+    }
+
+    .search_container img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .search_input {
+        height: 30px;
+        width: 60vw;
+    }
+    /*------------------------------------*/
+    main {
+        display: block;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .user_picture {
+        text-align: center;
+        align-items: center;
+    }
+
+    .user_image {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*how is he || she*/
+
+    .user_date {
+        width: 40vw;
+        display: block;
+        text-align: center;
+    }
+
+    /*Repo - Follow/ers/ing*/
+    .RFF {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 5px;
+        width: 80vw;
+        height: 10vh;
+    }
+
+    /*link*/
+    .links {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .links div {
+        padding: 5px;
+        width: 80vw;
+    }
 }
